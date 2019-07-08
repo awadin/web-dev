@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Oxygen';
+    background-color: #064A68;
+}
+
+nav {
+    background-color: #D7414A;
+    color: whitesmoke;
+    height: 3em;
+}
+
+nav .buttons {
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    padding-top: .75em;
+}
