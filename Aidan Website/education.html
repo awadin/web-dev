@@ -12,7 +12,42 @@
 </head>
 
 <body>
-    <nav>
+
+        <table class="eduT">
+                <tr> 
+                    <th colspan="4">
+                        <h1 id="name">Aidan Wadin</h1>
+                    </th>
+                </tr>
+        
+                <tr>
+                   <td><img src="images/email.png" height="50px" width="50px"></td> 
+                   <td>aidan.wadin@icloud.com</td>
+        
+                   <td><img src="images/marker.png" height="50px" width="50px"></td>
+                   <td>Chicago, IL, USA / Montreal, QC, CA</td>
+                </tr>
+        
+                <tr>
+                    <td><img src="images/linkedin-logo-button.png" hiehgt="50px" width="50px"></td>
+                    <td><a href="https://www.linkedin.com/in/aidan-wadin/">https://www.linkedin.com/in/aidan-wadin/</a></td>
+        
+                    <!--Why can't I make the div class "mcgill" but i can make the td class mcgill to work with jQuery?-->
+                    <div>
+                        <td><img id="m_img" src="images/graduation-cap-icon-png-1.jpg" height="50px" width="50px"></td>
+                        <td id="mcgill"><a href="https://mcgill.ca/about/about-mcgill">McGill University: Computer Science - Cognitive Science</a></td>
+                    </div>
+        
+                </tr>
+        
+            </table>
+
+            <div class="eduIntro">
+                <h1>Education Timeline</h1>
+            </div>
+
+
+    <nav class="edu">
         <div class="buttons">
                 <h4><a href="home.html">Home</a></h4>
                 <h4 class="current"><a href="education.html">Education</a></h4>
@@ -22,14 +57,56 @@
         </div>
     </nav>
 
+    <section class="timeline">
+        <ul>
+            <li>
+                <div>
+                    <time>2012 - Barrington, IL</time>
+                    Began tenure at Barrington High school. Joined dance team, swim team, and gymnastics teams within the first 3 years. 
+                </div>
+            </li>
+
+            <li>
+                    <div>
+                        <time>2016 - Barrington, IL</time>
+                        Graduated Barrington High school with Highest Honors. Aquired membership to National Honor Society. Became an Illinois State Scholar. 
+                    </div>
+            </li>
+
+            <li>
+                    <div>
+                        <time>2016 - Montreal, QC</time>
+                        Enrolled at McGill University. Joined the boxing team and student radio stations. Took a wide range of introductory courses. 
+                    </div>
+            </li>
+
+            <li>
+                    <div>
+                        <time>2017 - Montreal, QC</time>
+                        Chose computer science major and cogintive science minor. Took courses from algorithm design to human cognition to advanced calculus. 
+                    </div>
+            </li>
+
+            <li>
+                    <div>
+                        <time>Now - Montreal, QC</time>
+                        Going into my final year at university. Excited to apply my knowledge to a career in computer science and beyond!
+                    </div>
+            </li>
+        </ul>
+    </section>
+
 </body>
 
 <footer>
 
 </footer>
 
-<script>
+<script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script> 
 
-</script>
+  <script src='main.js'></script> 
 
 </html>
