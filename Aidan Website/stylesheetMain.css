@@ -1,0 +1,48 @@
+/*
+General css
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Oxygen';
+    background-color: #984B43;
+}
+
+nav {
+    background-color: #D7414A;
+    color: whitesmoke;
+    height: 3em;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+}
+
+nav .buttons {
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    padding-top: .75em;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+nav .buttons h4 {
+    cursor: pointer;
+}
+
+nav .buttons .current {
+    color: #1B1B1B;
+    text-shadow: 0 0 1px rgba(1, 96, 116, 1);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}

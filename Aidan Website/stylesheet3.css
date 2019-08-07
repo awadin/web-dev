@@ -1,0 +1,42 @@
+  /* Work experience tab */
+
+  .work_pics {
+    max-height: 400px;
+    width: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+
+  .wpics_container {
+    font-size: 0;
+  }
+
+  .work_title {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2em; 
+  }
+
+  .img_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: crimson;
+    background-color: white;
+    opacity: 70%;
+    border-radius: 15px;
+    padding: 1.5rem;
+  }
+
+  .wpics_holder {
+    position: relative;
+  }
+
+  .work_pics_hover{
+    transform: scale(1.1);
+    transition-duration: .4s;
+  }

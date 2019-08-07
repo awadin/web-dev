@@ -10,6 +10,7 @@ $(document).ready(() => {
   });
   */
  //possibly make this a smoother transition between images (fadeIn/fadeOut) *above?*
+ //Seperate each pages JS into seperate files
  var generic = "images/graduation-cap-icon-png-1.jpg";
  var mcgillPic = "images/mcgill.png";
 $("#mcgill").on('mouseover', () => {
@@ -48,4 +49,18 @@ function callbackFunc() {
 window.addEventListener("load", callbackFunc);
 window.addEventListener("scroll", callbackFunc);
 
+$(".img_text").on('mouseenter', (event) => {
+  $(event.currentTarget).prev().addClass('work_pics_hover')
+}).on('mouseleave', (event) => {
+  $(event.currentTarget).prev().removeClass('work_pics_hover')
+});
+
 }); 
+
+//This animates the skill bars
+
+jQuery('.skillbar').each(function(){
+  jQuery(this).find('.skillbar-bar').animate({
+    width:jQuery(this).attr('data-percent')
+  }, 3500);
+});
