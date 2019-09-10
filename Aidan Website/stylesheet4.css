@@ -2,10 +2,15 @@
 Skills css
 */
 
+body {
+    background-image: url("images/connectwork.png");
+}
+
 .title {
     text-align: center;
     text-transform: uppercase;
     margin: 2em; 
+    color: white;
 }
   
   p {

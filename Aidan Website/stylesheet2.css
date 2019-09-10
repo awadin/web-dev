@@ -3,8 +3,9 @@
 */
 
 body {
-  background-image: url("images/timelineimage.jpg");
+  background-image: url("images/clock.jpg");
   background-size: 100%;
+  background-blend-mode: color;
 }
 
 .eduIntro {
@@ -145,4 +146,27 @@ body {
       border-width: 8px 16px 8px 0;
       border-color: transparent #F45B69 transparent transparent;
     }
+
+    @media all and (max-width:1300px){
+      .homeT{
+          width: 350px;
+          display: flex;
+      }
+      
+      td{
+          display:block;
+          width:100%;
+      }
+      
+      tr{
+          display:block;
+          margin-bottom:30px;
+      }
+  
+      .hpic {
+        margin: 15% auto;
+        position: relative;
+        display: block;
+      }
   }
+}
