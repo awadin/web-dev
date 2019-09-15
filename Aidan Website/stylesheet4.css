@@ -4,6 +4,7 @@ Skills css
 
 body {
     background-image: url("images/connectwork.png");
+    background-blend-mode: color-dodge;
 }
 
 .title {
