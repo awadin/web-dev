@@ -1,0 +1,11 @@
+html, body {
+    margin: 0px;
+}
+canvas {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url("background.jpg");
+    background-size: 100%;
+}
